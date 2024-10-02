@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+      
+        <h1>Tic Tac Toe</h1>
+        <button  id="start">START</button>
+        <h1 id="player">Turn</h1>
+        <div class="player-form hide">
+            <h2>Tic Tac Toe</h2>
+            <label for="player1">Player 1</label>
+            <input type="text" id="player1" name="player1" placeholder="Enter Player 1 Name">
+            
+            <label for="player2">Player 2</label>
+            <input type="text" id="player2" name="player2" placeholder="Enter Player 2 Name">
+            
+            <button type="submit" id="startGame">Start Game</button>
+        </div>
+        <div class="msgContainer hide">
+            <img src="congra.jpeg">
+            <p id="msg">WINNER</p>
+            <button id="newGame">NEW GAME</button>
+
+            
+        </div>
+        
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <div id="btn">
+            <button id="reset">RESET GAME</button>
+            <button id="newGame">NEW GAME</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
