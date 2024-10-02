@@ -1,2 +1,2 @@
 # tic-tac-toe
-its a game
+It is a two player game where one palyer is X and other player is O.
